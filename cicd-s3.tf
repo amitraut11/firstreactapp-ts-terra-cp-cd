@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "codepipeline_artifacts_firstreactapp" {
-  bucket = "codepipeline_artifacts_firstreactapp"
+resource "aws_s3_bucket" "codepipeline-artifacts-firstreactapp" {
+  bucket = "codepipeline-artifacts-firstreactapp"
   acl    = "private"
 } 
