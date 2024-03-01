@@ -9,7 +9,7 @@ export function Alert({
 }) {
   const [visible, setVisible] = useState(true);
   if (!visible) {
-    return <div>DoneDone!!</div>;
+    return <div>DoneDoneDoneDone!!</div>;
   }
   function handleCloseClick() {
     setVisible(false);
