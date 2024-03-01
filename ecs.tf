@@ -30,8 +30,8 @@ resource "aws_ecs_task_definition" "demo_app_task" {
           "hostPort": ${var.container_port}
         }
       ],
-      "memory": 512,
-      "cpu": 256
+      "memory": 1024,
+      "cpu": 512
     }
   ]
   DEFINITION
